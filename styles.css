@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    /* color: #fff; */
+}
+
+/*.body {
+     background-color: #000; 
+} */
+
+.containerAll {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100vh 1fr 1fr 80px;
+}
+
+/* CSS GRID */
+.header {
+    background-color: #000;
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 1;
+}
+.article {
+    background-color: green;
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 2;
+}
+.aside {
+    background-color: blue;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+}
+.footer  {
+    background-color: violet;
+    grid-column: 1 / span 4;
+    grid-row: 4 / span 1;
+}
+
+/* HEADER */
+
+.header__nav,.header__nav-div,.header__nav-divSearch,.header__nav-ul {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid #000; */
+}
+.header__nav {
+    justify-content: space-around;
+    height: 60px;
+}
+.header__nav-div{
+    align-items: center;
+}
+.header__nav-div-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.header__nav-div-h1 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.header__nav-divSearch {
+    align-items: center;
+}
+.header__nav-divSearch-input {
+    height: 30px;
+    width: 400px;
+    margin-right: 10px;
+}
+.header__nav-divSearch-button {
+    height: 30px;
+    width: 100px;
+}
+
+.header__nav-ul-li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header__nav-ul-li-a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+}
+.header__nav-ul-li-a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    transition: .25s;
+}
+
+.header__carrousel-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+/* ARTICLE */
+
+.cards {
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cards__card-img {
+    width: 200px;
+    height: 200px;
+}
+
+/* ASIDE */
+
+/* FOOTER */
