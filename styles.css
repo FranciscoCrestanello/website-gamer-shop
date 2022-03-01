@@ -192,8 +192,31 @@
 }
 
 @media screen and (max-width: 1400px){
-    .aside, .article {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* .header-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-nav-div {
+        display: flex;
+        flex-direction: column;
+    } */
+    .header__nav-divSearch {
+        position: absolute;
+        visibility: hidden;
+    }
+    /* .header__carrousel-img {
+        
+    } */
+    .article  {
         margin: 0px;
+    }
+    .aside {
+        margin-left: 20px;
     }
 }
 @media screen and (max-width: 640px){
