@@ -19,12 +19,15 @@
                     <input type="text" class="header__nav-divSearch-input">
                     <button class="header__nav-divSearch-button">Search</button>
                 </div>
-                <ul class="header__nav-ul">
+                <ul class="header__nav-ul" id="Menu">
                     <li class="header__nav-ul-li"><a href="#" class="header__nav-ul-li-a">Item 1</a></li>
                     <li class="header__nav-ul-li"><a href="#" class="header__nav-ul-li-a">Item 2</a></li>
                     <li class="header__nav-ul-li"><a href="#" class="header__nav-ul-li-a">Item 3</a></li>
                     <li class="header__nav-ul-li"><a href="#" class="header__nav-ul-li-a">Item 4</a></li>
                 </ul>
+                <div class="divHidden">
+                    <button onclick="showOrHideMenu()" class="divHidden__button">Menu</button>
+                </div>
             </nav>
             <div class="header__carrousel">
                 <img src="/Images/img1.jfif" alt="Image" class="header__carrousel-img active" id="carouselImg">
@@ -33,42 +36,42 @@
         <article class="article">
             <div class="cards">
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod1.webp" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod2.png" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod3.jfif" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod4.jpg" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod5.jpg" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod6.jpg" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod7.jpg" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
                 <div class="cards__card">
-                    <img src="/Images/Logotipo.jpg" alt="Image" class="cards__card-img">
+                    <img src="/Images/prod8.jpg" alt="Image" class="cards__card-img">
                     <p class="cards__card-p"><b>Lorem ipsum dolor</b><br>consectetur adipisicing elit. Repudiandae quia ipsum distinctio, iusto ipsam repellat ut quam tempore dolore, natus optio magnam doloremque expedita simili<br><b>$ 25000</b></p>
                     <button class="cards__card-button">Add to cart</button>
                 </div>
@@ -96,7 +99,7 @@
         <footer class="footer">
             <div class="footer__info">
                 <div class="footer__carrousel">
-                    <img src="/Images/img2.png" alt="Image" class="header__carrousel-img">
+                    <img src="/Images/img2.png" alt="Image" class="header__carrousel-img" id="carouselImg2">
                 </div> 
                 <h4 class="footer__info-h4">Lorem ipsum dolor sit amet.</h4>
                 <p class="footer__info-p">Lorem, ipsum dolor. 2022</p>

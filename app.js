@@ -13,4 +13,15 @@ cambiarImg = () => {
         cont = 0;
     }
     document.getElementById("carouselImg").src = images[cont];
+    document.getElementById("carouselImg2").src = images[cont];
+}
+
+showOrHideMenu = () => {
+    if(document.getElementById("Menu").style.visibility == "visible"){
+        document.getElementById("Menu").style.visibility = "hidden";
+    }
+    else {
+        document.getElementById("Menu").style.visibility = "visible";
+    }
+    
 }
